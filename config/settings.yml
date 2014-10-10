@@ -1,0 +1,7 @@
+---
+development: &common_settings
+  foo: bar
+test:
+  <<: *common_settings
+production:
+  <<: *common_settings
